@@ -1,3 +1,4 @@
+
 //library import
 
 const puppeteer = require('puppeteer');
@@ -8,10 +9,9 @@ const rash = "likeforlikes";
 
 const url = 'https://www.instagram.com/explore/tags/'+rash;
 
-
 async function bot()  {
 
-
+  
   //User information
 
      const user = document.getElementById("login").value;
@@ -78,7 +78,7 @@ async function bot()  {
      await page.click('div.eLAPa');
 
 
-   //pohto
+   //photo
 
      for(i=1;i<5000;i++){
 
