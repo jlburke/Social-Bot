@@ -18,11 +18,20 @@ async function bot()  {
 
      const password =document.getElementById("pass").value ;
 
+     const value_like = document.getElementById('rangeValue').innerHTML; 
+
+     if (value_like>72){
+       alert("the like rate is over 72%, your account will be in danger of soft ban")
+     }
+
+     const likerate = 100 - value_like;
+     
+
 
  //variable set
 
 
-    const browser = await puppeteer.launch({headless: false});
+    const browser = await puppeteer.launch({headless: true});
 
     const page = await browser.newPage();
 
@@ -77,7 +86,7 @@ async function bot()  {
 
       document.getElementById("total").innerText = i;
 
-      if(rand > 28){
+      if(rand >= likerate){
 
          //like photo
          try{
