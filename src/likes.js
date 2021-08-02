@@ -31,7 +31,10 @@ async function bot()  {
  //variable set
 
 
-    const browser = await puppeteer.launch({headless: false});
+    const browser = await puppeteer.launch({
+      headless: false,
+      args: [`--window-size=100,180`]
+    });
 
     const page = await browser.newPage();
 
