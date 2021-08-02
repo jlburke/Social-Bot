@@ -53,6 +53,6 @@ npm run make
 ## Special alerts 
 
 After clicking on run the bot you will recive a alert, confirm it. 
-The Bot will start a chrome window dont close or minimize it. you can put it on second plan but cant minimize.
+The Bot will start a chrome window dont close or minimize it. You can put it on second plan but cant minimize.
 Dont rezise the window, it is configured to bypass the instagram scripts.
 Closing any window can occur on bot interupt / bot shut down.
