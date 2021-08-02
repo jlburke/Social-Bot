@@ -50,7 +50,7 @@ async function bot()  {
 
      await page.goto('https://www.instagram.com/accounts/login/');
 
-     await page.waitForSelector('input[name="username"');
+     await page.waitForSelector('input[name="username"]');
 
    //login
 
