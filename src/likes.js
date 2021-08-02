@@ -31,7 +31,7 @@ async function bot()  {
  //variable set
 
 
-    const browser = await puppeteer.launch({headless: true});
+    const browser = await puppeteer.launch({headless: false});
 
     const page = await browser.newPage();
 
@@ -50,7 +50,7 @@ async function bot()  {
 
      await page.goto('https://www.instagram.com/accounts/login/');
 
-     await page.waitForSelector('input[name="username"]');
+     await page.waitForSelector('input[name="username"');
 
    //login
 
@@ -118,6 +118,6 @@ async function bot()  {
       alert(botname + " has finished")
       page.close();
 
-    }
+    };
 
 //signature G4lile0
