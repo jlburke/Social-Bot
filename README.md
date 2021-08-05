@@ -7,7 +7,7 @@
 
 ## Working in process Parts
 
-[x] https://github.com/G4lile00/Social-Bot/tree/main/Desktop
+[x] https://github.com/G4lile00/Social-Bot/tree/main/Web
 
 ## To start
 
