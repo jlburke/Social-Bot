@@ -11,10 +11,22 @@
     "publish": "electron-forge publish",
     "lint": "echo \"No linting configured\""
   },
-  "keywords": [],
-  "author": "G4lile0-WhiteF0x <57160685+G4lile0-WhiteF0x@users.noreply.github.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/G4lile00/Social-Bot.git"
+  },
+  "keywords": [
+    "Social",
+    "Bot",
+    "Node.js"
+  ],
+  "author": "G4lile00",
   "license": "MIT",
-  "config": {},
+  "bugs": {
+    "url": "https://github.com/G4lile00/Social-Bot/issues"
+  },
+  "homepage": "https://github.com/G4lile00/Social-Bot#readme",
+  
   "dependencies": {
     "electron-squirrel-startup": "^1.0.0",
     "puppeteer": "^3.0.2"
