@@ -1,0 +1,24 @@
+{
+  "name": "social-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/G4lile00/Social-Bot.git"
+  },
+  "keywords": [
+    "Social",
+    "Bot",
+    "Node.js"
+  ],
+  "author": "G4lile00",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/G4lile00/Social-Bot/issues"
+  },
+  "homepage": "https://github.com/G4lile00/Social-Bot#readme"
+}
