@@ -5,7 +5,7 @@
 ## Completed Parts
 [x] https://github.com/G4lile00/Social-Bot/tree/main/Desktop
 
-## Working in process Parts
+## Working in progress Parts
 
 [x] https://github.com/G4lile00/Social-Bot/tree/main/Web
 
