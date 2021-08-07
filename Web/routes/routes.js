@@ -19,5 +19,8 @@ routes.get('/',  (req, res) =>
 
     );
 
-
+	routes.get('/register',  (req, res) =>
+	// read default file
+	res.send("ok")
+    );
 module.exports = routes;
