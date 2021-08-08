@@ -83,7 +83,7 @@ async function bot()  {
 
    //photo
 
-     for(i=1;i<5000;i++){
+     for(i=1;l<2;i++){
 
       var rand = Math.floor(Math.random() * 100) + 1;
 
@@ -118,9 +118,9 @@ async function bot()  {
          await page.click('a._65Bje');
 
       };
-      alert(botname + " has finished")
-      page.close();
-
+      alert("Bot has finished")
+      browser.close();
+      
     };
 
 //signature G4lile0
