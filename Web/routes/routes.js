@@ -20,7 +20,13 @@ routes.get('/',  (req, res) =>
     );
 
 	routes.get('/register',  (req, res) =>
-	// read default file
-	res.send("ok")
+	fs.readFile("/home/g4lile0/Desktop/Social-Bot/Web/src/public/register.ejs", (error, data) => {
+		if (error) {
+			res.send("Error 404");
+		} else {
+			res.write(data);
+			res.end();
+		}
+	})
     );
 module.exports = routes;
