@@ -83,7 +83,7 @@ async function bot()  {
 
    //photo
 
-     for(i=1;l<2;i++){
+     for(i=1;l<500;i++){
 
       var rand = Math.floor(Math.random() * 100) + 1;
 
