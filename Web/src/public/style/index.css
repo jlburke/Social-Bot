@@ -59,3 +59,11 @@ body {
 	background: none;
 }
 
+.ads{
+  position: absolute;
+  height: 10vh;
+  width: 100%;
+  top: 90%;
+  left: 0%;
+  background-color: cyan;
+}
