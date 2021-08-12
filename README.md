@@ -11,5 +11,5 @@
 
 ## To start
 
-#### [x] https://github.com/G4lile00/Social-Bot/tree/main/Mobile 
+#### [x] https://github.com/G4lile00/Social-Bot/tree/main/Mobile
 #### [x] https://github.com/G4lile00/Social-Bot/tree/main/Server
