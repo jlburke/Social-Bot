@@ -2,7 +2,7 @@
 <h3> This repository is to display the open source code From the Social-Bot Project</h3>
  
 <div style="text-decoration: none;">
-  <p>Socail-bot Site: <a href="http://socialbots.ddns.net">On deploy</a><p>
+  <p>Social-Bot Site: <a href="http://socialbots.ddns.net">On deploy</a><p>
 </div><br>
 <div>
  <h1>Access
