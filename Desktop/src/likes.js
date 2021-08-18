@@ -38,7 +38,7 @@ async function bot()  {
 
     const page = await browser.newPage();
 
-    alert("You have iniciated the Bot");
+    alert("You have initiated the Bot");
 
     l=0
 
